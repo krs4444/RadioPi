@@ -95,6 +95,13 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="LCD\Lcd.cs" />
+    <Compile Include="MCP\Addresses.cs" />
+    <Compile Include="MCP\MCP23017.cs" />
+    <Compile Include="MCP\Pin.cs" />
+    <Compile Include="MCP\PinMode.cs" />
+    <Compile Include="MCP\PinValue.cs" />
+    <Compile Include="MCP\Register.cs" />
     <Compile Include="StartupTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
